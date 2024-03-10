@@ -1,0 +1,99 @@
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px ;
+    z-index: 1;
+    width: 1200px;
+}
+@media (min-width: 360px) {
+.container {
+    width: 350px;
+}
+
+}
+@media (min-width: 469px) {
+.container {
+    width: 450px;
+}
+}
+@media (min-width: 569px) {
+.container {
+    width: 450px;
+}
+}
+@media (min-width: 669px) {
+.container {
+    width: 650px;
+}
+
+}
+
+/* ### Small Screen ### */
+@media (min-width: 769px) {
+    .container {
+        width: 750px;
+    }
+    
+}
+
+/* ### Medium Screen ### */
+@media (min-width: 992px) {
+    .container {
+        width: 940px;
+    }
+}
+@media (max-width: 992px) {
+    .menu_icon {
+        display: flex;
+    }
+    .cover header ul {
+        position: absolute;
+        top: -100px;
+    }
+    .cover header ul.active {
+        position: absolute;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: var(--MainColor-);
+        opacity: .6;
+        width: 100%;
+        margin: 20px 10px;
+        z-index: 999999;
+        transition: .5s ease;
+    }
+
+    .cover header ul.active a {
+        padding: 7px 0;
+        border-bottom: 1px solid #fcfcfc;
+        width: 100%;
+        margin: 0;
+        padding: 5px 10px;
+        transition: .5s;
+    }
+    .cover header ul.active a:hover {
+        color: var(--main-);
+        padding-left: 20px;
+    }
+}
+
+/* ### Large Screen  ### */
+@media (min-width: 1201px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1401px) {
+    .container {
+        width: 1400px;
+    }
+}
+
+/* @media (min-width: 1601px) {
+    .container {
+        width: 1550px;
+    }
+} */
