@@ -97,9 +97,14 @@
     }
 }
 
-@media (max-width: 875px) {
+@media (max-width: 690px) {
     .card_contact {
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .card_contact .info,.card_contact textarea {
+        width: 100%;
     }
 }
 
