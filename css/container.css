@@ -141,6 +141,11 @@
         padding: 10px 5px;
     }
 }
+@media (max-width:580px) {
+    .bottom_btn {
+        right: 80px;
+    }
+}
 @media (max-width:468px) {
     .cover .lay_out .text p {
         margin: 10px 0;

@@ -309,10 +309,10 @@ button:hover {
 .bottom_btn {
     position:fixed  ;
     bottom: 70px;
-    right: 10%;
+    right: 7%;
     transform: translate(90%);
-    /* width: 5%;
-    height: 10%; */
+    width: 70px;
+    height: 70px;
     background-color: var(--main-);
     z-index: 9999;
     display: flex;
