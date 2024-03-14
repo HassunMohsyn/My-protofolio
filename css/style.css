@@ -15,6 +15,15 @@
     --main-: #89aac3;
 
 }
+
+.cover {
+    /* background:  linear-gradient(235.59deg, var(--background-) 39%, var(--main-) 38.53%, var(--backgroundsec-) 37.52%); */
+    /* background-color: var(--main-); */
+    background: linear-gradient(119.59deg, var(--backgroundsec-) 0%, var(--main-) 28.53%, var(--background-) 75.52%);
+    height: 100vh;
+    color: #fcfcfc;
+}
+
 .cover header {
     display: flex;
     justify-content: space-between;
@@ -68,12 +77,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.cover {
-    background-color: var(--main-);
-    height: 100vh;
-    color: #fcfcfc;
-}
-.cover::after {
+
+/* .cover::after {
     content: '';
     position: absolute;
     width: 35%;
@@ -81,18 +86,26 @@
     background-color: var(--backgroundsec-);
     top: 0;
     left: 65%;
-}
+} */
 
 .cover .lay_out {
-    height: 100vh;
+    height: calc(100vh - 80px);
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 
 .cover .lay_out .text {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
     width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
 }
 .cover .lay_out .text p {
     margin: 10px 0;
@@ -115,15 +128,15 @@
     color: var(--MainColor-);
 }
 .cover .lay_out .image {
-    width: 450px;
-    height: 570px;
+    width: 620px;
+    height: 100%;
     /* background-color: #fcfcfc; */
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    left: 65%;
+    left: 65%; */
     /* border: 10px double var(--MainColor-); */
-    z-index: 15;
-    transform: translate(-50% , -65%);
+    /* z-index: 15; */
+    /* transform: translate(-50% , -65%); */
 }
 .cover .lay_out .image img {
     width: 100%;
@@ -151,19 +164,27 @@ div h1 {
 }
 .Skills .container .Skill-card {
     width: 30%;
-    padding: 25px;
+    /* padding: 25px; */
     margin: 15px;
     transition: 0.7s ease;
     text-align: center;
     color: #fcfcfc;
 }
 
-.Skills .container .Skill-card img {
+/* .Skills .container .Skill-card img {
     width: 100%;
+} */
+.Skills .container .Skill-card i {
+    width: 100%;
+    font-size: 370px;
+    text-align: center;
+    /* margin: 0 15px; */
+    /* color: #e44d26; */
 }
 
 .Skills .container .Skill-card .title-card {
     letter-spacing: 0.1cm;
+    color: #fcfcfc;
 }
 .Skills .container .Skill-card .progres {
     width: 100%;
@@ -273,7 +294,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     margin: auto;
-    transition: .5s;
+    transition: .5s;    
 }
 button:hover {
     background-color: var(--MainColor-);

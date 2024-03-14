@@ -1,5 +1,10 @@
 let Skill_card = document.querySelectorAll(".Skills .container .Skill-card");
 
+Skill_card.forEach (Skill_card => {
+    
+Skill_card.style.color = Skill_card.dataset.color;
+
+})
 
 let span = document.querySelectorAll(".Skills .container .Skill-card .progres span");
 span.forEach( (span) => {
@@ -32,3 +37,5 @@ let bottom_btn = document.querySelector(".bottom_btn");
 // body.onclick = function() {
 //     ul_ShoHid.classList.remove("active");
 // };
+
+

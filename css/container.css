@@ -85,6 +85,11 @@
         width: 1200px;
     }
 }
+@media (max-width: 1200px) {
+    .Skills .container .Skill-card i {
+        font-size: 300px;
+    }
+}
 
 @media (min-width: 1401px) {
     .container {
@@ -92,8 +97,22 @@
     }
 }
 
-/* @media (min-width: 1601px) {
-    .container {
-        width: 1550px;
+@media (max-width: 875px) {
+    .card_contact {
+        flex-direction: column-reverse;
     }
-} */
+}
+
+@media (max-width: 660px) {
+    .cover .lay_out .image {
+        display: none;
+    }
+    .Skills .container .Skill-card {
+        width: 100%;
+        transition: 0.2s;
+    }
+    .Projects .project_card {
+        width: 100%;
+        transition: 0.2s;
+    }
+}
