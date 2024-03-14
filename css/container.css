@@ -19,12 +19,12 @@
 }
 @media (min-width: 569px) {
 .container {
-    width: 450px;
+    width: 550px;
 }
 }
 @media (min-width: 669px) {
 .container {
-    width: 650px;
+    width: 660px;
 }
 
 }
@@ -107,6 +107,11 @@
     .cover .lay_out .image {
         display: none;
     }
+    .cover .lay_out .text {
+        width: 100%;
+    }
+    
+
     .Skills .container .Skill-card {
         width: 100%;
         transition: 0.2s;
@@ -114,5 +119,35 @@
     .Projects .project_card {
         width: 100%;
         transition: 0.2s;
+    }
+}
+@media (max-width:668px) {
+    .cover .lay_out .text p {
+        margin: 10px 0;
+        font-size: 40px;
+    }
+    .cover .lay_out .text h5 {
+        color: var(--MainColor-);
+        font-size: 43px;
+        margin: 10px 0;
+    }
+    .text a {
+        font-size: 40px;
+        padding: 10px 5px;
+    }
+}
+@media (max-width:468px) {
+    .cover .lay_out .text p {
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .cover .lay_out .text h5 {
+        color: var(--MainColor-);
+        font-size: 32px;
+        margin: 10px 0;
+    }
+    .text a {
+        font-size: 30px;
+        padding: 10px 5px;
     }
 }
