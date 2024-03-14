@@ -16,10 +16,8 @@
 
 }
 
-body {
-    background: linear-gradient(119.59deg, var(--backgroundsec-) 0%, var(--main-) 28.53%, var(--background-) 75.52%);
-}
 .cover {
+    background: linear-gradient(119.59deg, var(--backgroundsec-) 0%, var(--main-) 28.53%, var(--background-) 75.52%);
     /* background:  linear-gradient(235.59deg, var(--background-) 39%, var(--main-) 38.53%, var(--backgroundsec-) 37.52%); */
     /* background-color: var(--main-); */
     height: 100vh;
